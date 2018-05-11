@@ -1,0 +1,3 @@
+[4/16/2018, 10:08:09 AM] layer "Email: info@gco.vn": Unsupported extension: vn
+[4/16/2018, 10:08:09 AM] layer "Nếu hỏi dân địa phương rằng, đến Quy Nhơn thì nơi nào đẹp nhất,": Expected end of input but "," found.
+[4/16/2018, 10:08:09 AM] layer "© Designed by bitour.vn": Unsupported extension: vn
