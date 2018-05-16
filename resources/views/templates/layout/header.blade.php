@@ -80,7 +80,7 @@
                             </div>
                         </div>
                         <!-- regis -->
-                        <a href="{{url('')}}" class="btn regis-btn regis-link on">Đăng ký tour riêng</a>
+                        <a href="{{url('').'#regis'}}" class="btn regis-btn regis-link on">Đăng ký tour riêng</a>
                     </div>
                 </div>
             </div>

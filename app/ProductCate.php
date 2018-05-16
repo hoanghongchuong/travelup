@@ -12,7 +12,7 @@ class ProductCate extends Model {
 	public function getProductsAttribute()
     {
     	$categoryIdArray = $this->getChildCategories([$this->id]);
-        return \App\Products::whereIn('cate_id', $categoryIdArray)->where('com','san-pham');
+        return \App\Products::whereIn('cate_id', $categoryIdArray)->where('com','san-pham')->where('status',1);
     }
 
     protected function getChildCategories($categoryArray = [])

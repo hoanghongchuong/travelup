@@ -158,9 +158,9 @@
             
           </ul>
         </li>
-        <li><a href="backend/position"><i class="fa fa-gear" aria-hidden="true"></i> <span>Vị trí banner</span></a></li>
+        <!-- <li><a href="backend/position"><i class="fa fa-gear" aria-hidden="true"></i> <span>Vị trí banner</span></a></li>
         
-        <li><a href="backend/chinhanh"><i class="fa fa-envelope"></i><span>Quản lý chi nhánh</span></a></li>
+        <li><a href="backend/chinhanh"><i class="fa fa-envelope"></i><span>Quản lý chi nhánh</span></a></li> -->
         
         
         <!-- <li><a href="backend/saleof"><i class="fa fa-gear" aria-hidden="true"></i> <span>Cài đặt giảm giá</span></a></li> -->

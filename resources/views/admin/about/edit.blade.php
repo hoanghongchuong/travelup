@@ -47,11 +47,12 @@
 								      	<label class="control-label" for="inputError"><i class="fa fa-times-circle-o"></i> {!! $errors->first('fImages'); !!}</label>
 								      	@endif
 									</div>	
-									@endif	                  			
+									             			
 							    	<div class="form-group">
 								      	<label for="ten">Tittle</label>
 								      	<input type="text" name="txtName" id="txtName" value="{{ @$data->name }}"  class="form-control" />
 									</div>
+									@endif
 								</div>
 								<input type="hidden" name="txtCom" value="{{ old('txtCom', isset($data) ? @$data->com : null) }}">
 								<div class="clearfix"></div>

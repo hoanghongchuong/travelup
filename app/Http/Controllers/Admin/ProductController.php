@@ -46,7 +46,7 @@ class ProductController extends Controller
         $data = Products::where('com',$com)->get();
 
 
-        $parent = ProductCate::all();
+        $parent = ProductCate::orderBy('stt', 'asc')->where('com','san-pham')->get()->toArray();
         $theloai = TheLoai::all();
         $tacgia = TacGia::all();
         $nxb = NXB::all();
@@ -208,9 +208,7 @@ class ProductController extends Controller
             $com='';
         }
         $id= $request->get('id');
-        $theloai = TheLoai::all();
-        $tacgia = TacGia::all();
-        $nxb = NXB::all();
+        
         //Tìm article thông qua mã id tương ứng
         //$data = Products::findOrFail($id);
         $data = Products::find($id);

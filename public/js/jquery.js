@@ -413,19 +413,19 @@ jQuery(document).ready(function($){
       ]
     });
 
-    $('.regis-link').click(function(e){
-        e.preventDefault();
-        $('.on').removeClass('on');
-        el = $(this);
-        name = el.attr('href');
-        if($(window).width() >= 992) {
-            pos = $(name).position().top;
-        }
-        else {
-            pos = $(name).position().top + 80;
-        }
-        el.addClass('on');
-        $('html,body').stop().animate({scrollTop:pos},600);
-        return false;
-    });
+    // $('.regis-link').click(function(e){
+    //     e.preventDefault();
+    //     $('.on').removeClass('on');
+    //     el = $(this);
+    //     name = el.attr('href');
+    //     if($(window).width() >= 992) {
+    //         pos = $(name).position().top;
+    //     }
+    //     else {
+    //         pos = $(name).position().top + 80;
+    //     }
+    //     el.addClass('on');
+    //     $('html,body').stop().animate({scrollTop:pos},600);
+    //     return false;
+    // });
 });

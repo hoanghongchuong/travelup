@@ -6,6 +6,12 @@
 ?>
 <footer class="b4 ft">
     <!-- <div class="to-top"><i class="fa fa-arrow-up"></i></div> -->
+    <div class="quick-alo-phone quick-alo-green quick-alo-show" id="quick-alo-phoneIcon">
+        <a href="tel:0944260360" title="Liên hệ nhanh">
+        <div class="quick-alo-ph-circle"></div>
+        <div class="quick-alo-ph-circle-fill"></div>
+        <div class="quick-alo-ph-img-circle"></div></a>
+    </div>
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-4 col-md-6">

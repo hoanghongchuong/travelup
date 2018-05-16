@@ -9,12 +9,11 @@ $slider = DB::table('slider')->select()->where('status',1)->where('com','gioi-th
 ?>
 <main class="index">
     <div class="slider-area">
+        @foreach($slider as $s)
         <div>
-            <a href="#" title=""><img src="{{ asset('public/images/index/1.jpg')}}" title="" alt=""></a>
+            <a href="#" title=""><img src="{{ asset('upload/hinhanh/'.$s->photo)}}" title="" alt=""></a>
         </div>
-        <div>
-            <a href="#" title=""><img src="{{ asset('public/images/index/1.jpg')}}" title="" alt=""></a>
-        </div>
+        @endforeach
     </div>
     <!-- slider-area-end -->
 
